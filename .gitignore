@@ -1,0 +1,52 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore environment variables and sensitive files
+.env
+.env.*
+config/*.json
+config/*.yml
+config/*.yaml
+secrets.json
+
+# Ignore private keys and certificates
+*.pem
+*.key
+*.crt
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore password-related files
+*.passwd
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore database and backup files
+*.db
+*.sqlite
+*.sql
+*.bak
+
+# Ignore editor backup files
+*~
+*.bak
+*.swp
+
+# Ignore cache files
+__pycache__/
+.cache/
